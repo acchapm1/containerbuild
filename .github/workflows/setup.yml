@@ -43,7 +43,7 @@ jobs:
       - name: Setup apptainer
       # You may pin to the exact commit or the version.
       # uses: eWaterCycle/setup-apptainer@4bb22c52d4f63406c49e94c804632975787312b3
-        uses: eWaterCycle/setup-apptainer@v2.0.0
+        uses: acchapm1/setup-apptainer@main
         with:
           # Version of singularity to setup
           apptainer-version: 1.2.2 # optional, default is 1.1.2
