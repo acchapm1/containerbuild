@@ -1,0 +1,14 @@
+name: 'Setup apptainer'
+description: 'Setup apptainer an open source container platform'
+author: Stefan Verhoeven
+inputs:
+  apptainer-version:
+    description: Version of apptainer to setup
+    required: false
+    default: 1.1.9
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: box
+  color: blue
