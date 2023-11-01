@@ -1,4 +1,4 @@
 # containerbuild
 Apptainer container action to build containers
 
-This is a test...
+Build an apptainer container when code changes in src directory. 
